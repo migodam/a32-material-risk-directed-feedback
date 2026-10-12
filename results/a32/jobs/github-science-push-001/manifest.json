@@ -1,0 +1,18 @@
+{
+  "event": "JOB",
+  "id": "github-science-push-001",
+  "status": "COMPLETE",
+  "command": [
+    "git",
+    "push",
+    "-u",
+    "origin",
+    "HEAD:main"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 2.6092663340386935,
+  "process_cpu_seconds": 0.120175,
+  "charged_seconds": 2.6092663340386935,
+  "gpu_occupied_seconds": 0.0,
+  "memory_peak_rss_bytes_platform_native": 13352960
+}

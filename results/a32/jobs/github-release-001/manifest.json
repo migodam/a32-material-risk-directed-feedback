@@ -1,0 +1,26 @@
+{
+  "event": "JOB",
+  "id": "github-release-001",
+  "status": "COMPLETE",
+  "command": [
+    "/opt/homebrew/bin/gh",
+    "release",
+    "create",
+    "a32-e0-v0.1.0",
+    "publication/A32_E0_RAW_ARRAYS.zip",
+    "--repo",
+    "migodam/a32-material-risk-directed-feedback",
+    "--target",
+    "f425484777a1da5fe625148772314ad3c30b00b9",
+    "--title",
+    "A32 E0: continuous recovery negative result",
+    "--notes-file",
+    "publication/RELEASE_NOTES.md"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 6.5772304169950075,
+  "process_cpu_seconds": 0.245589,
+  "charged_seconds": 6.5772304169950075,
+  "gpu_occupied_seconds": 0.0,
+  "memory_peak_rss_bytes_platform_native": 45465600
+}

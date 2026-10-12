@@ -116,7 +116,7 @@ oracle的平均TRAIN Mahalanobis平方距离为45.07，MAP为25.73。它们说�
 
 ![仅系数求解kernel耗时](results/a32/figures/FIG05_QP_KERNEL_TIME_ONLY.png)
 
-CPU按每个实际job的wall／process CPU较大者记账，报告生成时记录 **16.705/1800秒**；后续报告与发布费用以COST_LEDGER及publication记录为准。交互式少量读文件及外部模型推理未被这些host-job receipt完全覆盖，不把该数字当全部工作总耗时；预算远未接近上限。worker失败的NumPy／Matplotlib导入、解释器路径，以及一项过严roundoff测试断言均保留；数值solver／科学门槛没有因此改变。最终整合50测试通过。
+CPU按每个实际job的wall／process CPU较大者记账，报告生成时记录 **36.283/1800秒**；后续报告与发布费用以COST_LEDGER及publication记录为准。交互式少量读文件及外部模型推理未被这些host-job receipt完全覆盖，不把该数字当全部工作总耗时；预算远未接近上限。worker失败的NumPy／Matplotlib导入、解释器路径，以及一项过严roundoff测试断言均保留；数值solver／科学门槛没有因此改变。最终整合50测试通过。
 
 材料与模型收益失败和实现失败分开记录。没有hash／SHA256检查，没有traceable备份或额外native测试campaign。A17/A30原代码、结果及NO-GO均未改写。
 
@@ -132,4 +132,6 @@ CPU按每个实际job的wall／process CPU较大者记账，报告生成时记�
 |同chart offline capacity|完整32条件；truth拟合，不是在线算法|
 |新原生Maxwell反馈／三维验证|NOT_RUN，新增state=0|
 |盲测、NN、后续E2|NOT_RUN／未授权扩展|
-|网页发布|独立记录；发布成功不改变科学NO-GO|
+|网页发布|VERIFIED_PUBLIC；发布成功不改变科学NO-GO|
+
+公开阅读入口：[GitHub仓库](https://github.com/migodam/a32-material-risk-directed-feedback)、[匿名raw主报告](https://raw.githubusercontent.com/migodam/a32-material-risk-directed-feedback/main/A32_E0_E1_DECISION.md)、[实际数组Release](https://github.com/migodam/a32-material-risk-directed-feedback/releases/tag/a32-e0-v0.1.0)。[网页核验记录](publication/PUBLICATION.json)记录当时的commit、公开URL和资产长度；后续费用／发布元数据提交不改变科学数组。最终交付commit另作匿名核验。

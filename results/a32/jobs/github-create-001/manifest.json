@@ -1,0 +1,24 @@
+{
+  "event": "JOB",
+  "id": "github-create-001",
+  "status": "COMPLETE",
+  "command": [
+    "/opt/homebrew/bin/gh",
+    "repo",
+    "create",
+    "migodam/a32-material-risk-directed-feedback",
+    "--public",
+    "--source",
+    ".",
+    "--remote",
+    "origin",
+    "--description",
+    "A32 continuous material recovery on cached Maxwell evidence; E0 FAIL and conditional A17 E1 NOT_RUN"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 4.516273167042527,
+  "process_cpu_seconds": 0.09151599999999999,
+  "charged_seconds": 4.516273167042527,
+  "gpu_occupied_seconds": 0.0,
+  "memory_peak_rss_bytes_platform_native": 44204032
+}

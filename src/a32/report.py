@@ -10,6 +10,8 @@ def run(root):
     stats=json.loads((out/'offline/E0_SUMMARY.json').read_text());diag=json.loads((out/'offline/FAILURE_ATTRIBUTION.json').read_text())
     cases=list(csv.DictReader((out/'offline/E0_CASE_METRICS.csv').open()))
     physical=totals(root)
+    publication_path=root/'publication/PUBLICATION.json'
+    publication=json.loads(publication_path.read_text()) if publication_path.exists() else {}
     jobs=read_rows(out/'COST_LEDGER.jsonl')
     test_job=next(r for r in reversed(jobs) if r.get('status')=='COMPLETE' and
                   r.get('command',[])[1:]==['-m','unittest','discover','-s','tests','-v'])
@@ -51,7 +53,8 @@ def run(root):
               'material_risk_prediction':'MATRIX_IDENTITY_TESTED_ONLY_NATIVE_PREDICTION_NOT_RUN',
               'same_quality_acceleration':'NOT_ESTABLISHED','physical_accounting':physical,
               'training_updates':0,'new_labels':0,'locked_access':False,
-              'publication_status':'SCIENTIFIC_RESULTS_READY_PUBLICATION_SEPARATELY_RECORDED'}
+              'publication_status':publication.get('status','SCIENTIFIC_RESULTS_READY_PUBLICATION_SEPARATELY_RECORDED'),
+              'publication_receipt':'publication/PUBLICATION.json' if publication else None}
     (out/'FINAL_DECISION.json').write_text(json.dumps(decision,indent=2,ensure_ascii=False)+'\n')
     math={'status':'PASS','A32_tests':test_count,'test_log':str(test_log.relative_to(root)),
           'matrix_material_risk_and_source_field_tests':8,'generic_budget_guard_tests':7,
@@ -177,7 +180,9 @@ CPU按每个实际job的wall／process CPU较大者记账，报告生成时记�
 |同chart offline capacity|完整32条件；truth拟合，不是在线算法|
 |新原生Maxwell反馈／三维验证|NOT_RUN，新增state=0|
 |盲测、NN、后续E2|NOT_RUN／未授权扩展|
-|网页发布|独立记录；发布成功不改变科学NO-GO|
+|网页发布|{publication.get('status','待独立完成')}；发布成功不改变科学NO-GO|
+
+公开阅读入口：[GitHub仓库](https://github.com/migodam/a32-material-risk-directed-feedback)、[匿名raw主报告](https://raw.githubusercontent.com/migodam/a32-material-risk-directed-feedback/main/A32_E0_E1_DECISION.md)、[实际数组Release](https://github.com/migodam/a32-material-risk-directed-feedback/releases/tag/a32-e0-v0.1.0)。[网页核验记录](publication/PUBLICATION.json)记录当时的commit、公开URL和资产长度；后续费用／发布元数据提交不改变科学数组。最终交付commit另作匿名核验。
 '''
     (root/'A32_E0_E1_DECISION.md').write_text(text)
     print(json.dumps({'scientific_status':'NO_GO_E1','E0_gain':gate['relative_equal_parent_MSE_gain'],

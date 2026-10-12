@@ -1,0 +1,17 @@
+{
+  "event": "JOB",
+  "id": "report-published-004",
+  "status": "COMPLETE",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "-m",
+    "src.a32",
+    "report"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 0.19242816598853096,
+  "process_cpu_seconds": 0.07973,
+  "charged_seconds": 0.19242816598853096,
+  "gpu_occupied_seconds": 0.0,
+  "memory_peak_rss_bytes_platform_native": 34947072
+}

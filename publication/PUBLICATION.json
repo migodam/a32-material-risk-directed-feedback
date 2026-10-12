@@ -1,0 +1,88 @@
+{
+  "status": "VERIFIED_PUBLIC",
+  "repository_url": "https://github.com/migodam/a32-material-risk-directed-feedback",
+  "report_url": "https://github.com/migodam/a32-material-risk-directed-feedback/blob/f425484777a1da5fe625148772314ad3c30b00b9/A32_E0_E1_DECISION.md",
+  "raw_report_url": "https://raw.githubusercontent.com/migodam/a32-material-risk-directed-feedback/f425484777a1da5fe625148772314ad3c30b00b9/A32_E0_E1_DECISION.md",
+  "release_url": "https://github.com/migodam/a32-material-risk-directed-feedback/releases/tag/a32-e0-v0.1.0",
+  "actual_commit": "f425484777a1da5fe625148772314ad3c30b00b9",
+  "scientific_code_release_commit": "f425484777a1da5fe625148772314ad3c30b00b9",
+  "asset": {
+    "url": "https://github.com/migodam/a32-material-risk-directed-feedback/releases/download/a32-e0-v0.1.0/A32_E0_RAW_ARRAYS.zip",
+    "bytes": 43459519,
+    "anonymous_HTTP": 200
+  },
+  "checks": [
+    {
+      "url": "https://api.github.com/repos/migodam/a32-material-risk-directed-feedback",
+      "HTTP_status": 200,
+      "anonymous": true,
+      "content_type": "application/json; charset=utf-8",
+      "content_length_header": "6194"
+    },
+    {
+      "url": "https://api.github.com/repos/migodam/a32-material-risk-directed-feedback/commits/main",
+      "HTTP_status": 200,
+      "anonymous": true,
+      "content_type": "application/json; charset=utf-8",
+      "content_length_header": null
+    },
+    {
+      "url": "https://github.com/migodam/a32-material-risk-directed-feedback",
+      "HTTP_status": 200,
+      "anonymous": true,
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null
+    },
+    {
+      "url": "https://github.com/migodam/a32-material-risk-directed-feedback/blob/f425484777a1da5fe625148772314ad3c30b00b9/A32_E0_E1_DECISION.md",
+      "HTTP_status": 200,
+      "anonymous": true,
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/migodam/a32-material-risk-directed-feedback/f425484777a1da5fe625148772314ad3c30b00b9/README.md",
+      "HTTP_status": 200,
+      "anonymous": true,
+      "content_type": "text/plain; charset=utf-8",
+      "content_length_header": "4468"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/migodam/a32-material-risk-directed-feedback/f425484777a1da5fe625148772314ad3c30b00b9/A32_E0_E1_DECISION.md",
+      "HTTP_status": 200,
+      "anonymous": true,
+      "content_type": "text/plain; charset=utf-8",
+      "content_length_header": "13714"
+    },
+    {
+      "url": "https://github.com/migodam/a32-material-risk-directed-feedback/releases/tag/a32-e0-v0.1.0",
+      "HTTP_status": 200,
+      "anonymous": true,
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": null
+    },
+    {
+      "url": "https://api.github.com/repos/migodam/a32-material-risk-directed-feedback/releases/tags/a32-e0-v0.1.0",
+      "HTTP_status": 200,
+      "anonymous": true,
+      "content_type": "application/json; charset=utf-8",
+      "content_length_header": "4341"
+    },
+    {
+      "url": "https://github.com/migodam/a32-material-risk-directed-feedback/releases/download/a32-e0-v0.1.0/A32_E0_RAW_ARRAYS.zip",
+      "HTTP_status": 200,
+      "anonymous": true,
+      "content_type": "application/octet-stream",
+      "content_length_header": "43459519"
+    }
+  ],
+  "scientific_status": "E0_FAIL_E1_NOT_RUN",
+  "physical_accounting_at_check": {
+    "new_material_state_evaluations": 0,
+    "new_LU_RHS": 0,
+    "charged_cpu_seconds": 30.691102543874564,
+    "gpu_occupied_seconds": 0.0
+  },
+  "hash_checks": false,
+  "timestamp_utc": "2026-10-12T04:01:27Z"
+}
