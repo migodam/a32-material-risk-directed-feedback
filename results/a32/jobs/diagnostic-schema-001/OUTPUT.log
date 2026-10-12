@@ -1,0 +1,2 @@
+{'data': (128, 32, 8), 'parent_id': (128,), 'split': (128,), 'case_id': (128,), 'amplitude': (128,), 'noise_db': (128,)}
+['data', 'sigma', 'noise_seed', 'initial_mass', 'lambda', 'initial_wall', 'initializer_id', 'parent_id', 'background_id', 'split', 'family', 'ood_type', 'variant_id', 'case_id', 'amplitude', 'noise_db', 'status', 'manifest_id', 'geometry_descriptor', 'chi', 'current', 'clean']

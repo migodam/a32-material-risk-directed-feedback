@@ -1,0 +1,15 @@
+{
+  "event": "JOB",
+  "id": "public-array-package-001",
+  "status": "FAILED",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "tools/package_public_arrays.py"
+  ],
+  "exit_code": 1,
+  "wall_seconds": 0.24730779195670038,
+  "process_cpu_seconds": 0.07810999999999998,
+  "charged_seconds": 0.24730779195670038,
+  "gpu_occupied_seconds": 0.0,
+  "memory_peak_rss_bytes_platform_native": 20201472
+}

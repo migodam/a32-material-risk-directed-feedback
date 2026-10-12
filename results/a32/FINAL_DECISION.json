@@ -1,0 +1,58 @@
+{
+  "status": "NO_GO_E1",
+  "E0": {
+    "status": "FAIL",
+    "primary_method": "pca64_calibrated_L_gaussian",
+    "relative_equal_parent_MSE_gain": -0.3945948721311856,
+    "required_gain": 0.05,
+    "complete_primary": true,
+    "primary_cases": 24,
+    "primary_parents": 12,
+    "bootstrap_not_a_gate": true,
+    "new_full_wave_states": 0,
+    "reason": "MATERIAL_GAIN_BELOW5_PERCENT",
+    "E1_enabled": false,
+    "target_access": "only after all32 online prediction artifacts saved",
+    "coverage_details": {
+      "primary_method": "pca64_calibrated_L_gaussian",
+      "reference": "N3",
+      "metric": "fixed_mass_squared_error",
+      "primary_families": [
+        "shell",
+        "asymmetric_piecewise",
+        "mixed_scale"
+      ],
+      "expected_parent_count": 12,
+      "formula": "1 - equal_parent_mean(candidate)/equal_parent_mean(reference)",
+      "gain_min": 0.05,
+      "complete_primary_required": true,
+      "coverage_complete": true,
+      "gain": -0.3945948721311856,
+      "status": "FAIL",
+      "incomplete_primary_parent_ids": [],
+      "unexpected_parent_rows": 0,
+      "bootstrap_is_descriptive_only": true
+    }
+  },
+  "E1": {
+    "status": "NOT_RUN",
+    "reason": "E0_FAILED"
+  },
+  "conditional_3d": {
+    "status": "NOT_RUN",
+    "reason": "E0_FAILED_AND_NO_CONFIRMED_FULL_NATIVE_CACHE"
+  },
+  "A17_native_material_benefit": "NOT_ESTABLISHED_NOT_TESTED_IN_NATIVE_E1",
+  "material_risk_prediction": "MATRIX_IDENTITY_TESTED_ONLY_NATIVE_PREDICTION_NOT_RUN",
+  "same_quality_acceleration": "NOT_ESTABLISHED",
+  "physical_accounting": {
+    "new_material_state_evaluations": 0,
+    "new_LU_RHS": 0,
+    "charged_cpu_seconds": 16.704972667823,
+    "gpu_occupied_seconds": 0.0
+  },
+  "training_updates": 0,
+  "new_labels": 0,
+  "locked_access": false,
+  "publication_status": "SCIENTIFIC_RESULTS_READY_PUBLICATION_SEPARATELY_RECORDED"
+}

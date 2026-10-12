@@ -1,0 +1,72 @@
+{
+  "source_repository": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A29/a29-material-hypothesis-coverage",
+  "source_commit": "5d5e31fcfc56ac8ef9d64c46b4b7bbdedef96bb4",
+  "source_freeze_method": "git show <required frozen source commit>:<path>; exact byte copy; no file digests computed or recorded",
+  "runtime_files": [
+    {
+      "path": "src/a20/__init__.py",
+      "size_bytes": 99,
+      "copy_from_commit_byte_equal": true
+    },
+    {
+      "path": "src/a20/costs.py",
+      "size_bytes": 7668,
+      "copy_from_commit_byte_equal": true
+    },
+    {
+      "path": "src/a24/__init__.py",
+      "size_bytes": 69,
+      "copy_from_commit_byte_equal": true
+    },
+    {
+      "path": "src/a24/contracts.py",
+      "size_bytes": 5508,
+      "copy_from_commit_byte_equal": true
+    },
+    {
+      "path": "src/a24/physics.py",
+      "size_bytes": 10830,
+      "copy_from_commit_byte_equal": true
+    },
+    {
+      "path": "src/a25/__init__.py",
+      "size_bytes": 0,
+      "copy_from_commit_byte_equal": true
+    },
+    {
+      "path": "src/a25/torch_physics.py",
+      "size_bytes": 30336,
+      "copy_from_commit_byte_equal": true
+    },
+    {
+      "path": "src/a27/__init__.py",
+      "size_bytes": 80,
+      "copy_from_commit_byte_equal": true
+    },
+    {
+      "path": "src/a27/exact.py",
+      "size_bytes": 6310,
+      "copy_from_commit_byte_equal": true
+    },
+    {
+      "path": "vendor/a2/physics.py",
+      "size_bytes": 11217,
+      "copy_from_commit_byte_equal": true
+    }
+  ],
+  "reference_only_paths": [
+    "src/a24/relative_feedback.py",
+    "src/a28/physics.py"
+  ],
+  "dependencies": {
+    "required": [
+      "numpy>=2.0",
+      "scipy>=1.13"
+    ],
+    "optional_torch": [
+      "torch==2.6.0"
+    ],
+    "device_policy": "SciPy CPU by default; optional existing Torch CPU/CUDA runtime only; no CUDA installation"
+  },
+  "scope": "Adapter implementation; synthetic arithmetic tests only; no Green construction or real physics execution by this worker"
+}

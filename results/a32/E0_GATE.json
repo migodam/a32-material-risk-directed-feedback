@@ -1,0 +1,34 @@
+{
+  "status": "FAIL",
+  "primary_method": "pca64_calibrated_L_gaussian",
+  "relative_equal_parent_MSE_gain": -0.3945948721311856,
+  "required_gain": 0.05,
+  "complete_primary": true,
+  "primary_cases": 24,
+  "primary_parents": 12,
+  "bootstrap_not_a_gate": true,
+  "new_full_wave_states": 0,
+  "reason": "MATERIAL_GAIN_BELOW5_PERCENT",
+  "E1_enabled": false,
+  "target_access": "only after all32 online prediction artifacts saved",
+  "coverage_details": {
+    "primary_method": "pca64_calibrated_L_gaussian",
+    "reference": "N3",
+    "metric": "fixed_mass_squared_error",
+    "primary_families": [
+      "shell",
+      "asymmetric_piecewise",
+      "mixed_scale"
+    ],
+    "expected_parent_count": 12,
+    "formula": "1 - equal_parent_mean(candidate)/equal_parent_mean(reference)",
+    "gain_min": 0.05,
+    "complete_primary_required": true,
+    "coverage_complete": true,
+    "gain": -0.3945948721311856,
+    "status": "FAIL",
+    "incomplete_primary_parent_ids": [],
+    "unexpected_parent_rows": 0,
+    "bootstrap_is_descriptive_only": true
+  }
+}

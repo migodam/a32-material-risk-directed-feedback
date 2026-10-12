@@ -1,0 +1,52 @@
+{
+  "task": "A32 pure statistics and plotting synthetic utility check",
+  "outcome": "PASS",
+  "is_research_experiment": false,
+  "native_backend_invoked": false,
+  "target_files_read": false,
+  "wall_seconds": 1.6394829589989968,
+  "user_cpu_seconds": 1.328995,
+  "system_cpu_seconds": 0.11606599999999999,
+  "process_cpu_seconds": 1.445061,
+  "cpu_charged_seconds": 1.6394829589989968,
+  "charge_rule": "max(process CPU, wall); parent can book its protocol ledger without double counting",
+  "checks": [
+    "Exact ratio-of-parent-means gate; distinct from mean parent gains; smooth separate; 2000 resamples.",
+    "Bootstrap is deterministic with frozen seed 321012.",
+    "Authoritative success=False blocks gate despite finite metrics and OPTIMAL status; failed parent retained.",
+    "Missing required case blocks the gate without dropping an expected parent/method.",
+    "Duplicated required case blocks the gate without dropping an expected parent/method.",
+    "Undefined zero reference denominator remains incomplete.",
+    "Fixed four-family weak examples use common absolute-delta limits; failed reconstruction stays blank and labelled.",
+    "All five figure types render PNG/SVG plus CSV; missing online comparison is preserved as empty gain, never zero."
+  ],
+  "artifacts": {
+    "reconstructions": {
+      "png": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_RECONSTRUCTIONS.png",
+      "svg": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_RECONSTRUCTIONS.svg",
+      "csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_RECONSTRUCTIONS.csv"
+    },
+    "comparisons": {
+      "png": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_COMPARISONS.png",
+      "svg": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_COMPARISONS.svg",
+      "csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_COMPARISONS.csv",
+      "parent_pairs_csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_COMPARISONS_PARENT_PAIRS.csv"
+    },
+    "capacity": {
+      "png": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_OFFLINE_CAPACITY.png",
+      "svg": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_OFFLINE_CAPACITY.svg",
+      "csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_OFFLINE_CAPACITY.csv"
+    },
+    "online": {
+      "png": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_ONLINE_GAINS.png",
+      "svg": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_ONLINE_GAINS.svg",
+      "csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_ONLINE_GAINS.csv"
+    },
+    "quality_runtime": {
+      "png": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_QUALITY_RUNTIME.png",
+      "svg": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_QUALITY_RUNTIME.svg",
+      "csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/SYNTHETIC_ONLY/SYNTHETIC_QUALITY_RUNTIME.csv"
+    }
+  },
+  "error": null
+}

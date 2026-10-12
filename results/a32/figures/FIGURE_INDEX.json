@@ -1,0 +1,33 @@
+[
+  {
+    "png": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG01_ACTUAL_FIXED_FAMILY_MATERIAL.png",
+    "svg": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG01_ACTUAL_FIXED_FAMILY_MATERIAL.svg",
+    "csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG01_ACTUAL_FIXED_FAMILY_MATERIAL.csv"
+  },
+  {
+    "png": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG02_E0_ALL_PARENT_GAINS.png",
+    "svg": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG02_E0_ALL_PARENT_GAINS.svg",
+    "csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG02_E0_ALL_PARENT_GAINS.csv"
+  },
+  {
+    "png": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG03_FROZEN_PRIOR_AND_OFFSET.png",
+    "svg": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG03_FROZEN_PRIOR_AND_OFFSET.svg",
+    "csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG03_FROZEN_PRIOR_AND_OFFSET.csv",
+    "parent_pairs_csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG03_FROZEN_PRIOR_AND_OFFSET_PARENT_PAIRS.csv"
+  },
+  {
+    "png": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG04_CAPACITY_VS_ACTUAL_RECOVERY.png",
+    "svg": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG04_CAPACITY_VS_ACTUAL_RECOVERY.svg",
+    "csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG04_CAPACITY_VS_ACTUAL_RECOVERY.csv"
+  },
+  {
+    "png": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG05_QP_KERNEL_TIME_ONLY.png",
+    "svg": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG05_QP_KERNEL_TIME_ONLY.svg",
+    "csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG05_QP_KERNEL_TIME_ONLY.csv"
+  },
+  {
+    "png": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG06_CACHE_ONLY_FAILURE_ATTRIBUTION.png",
+    "svg": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG06_CACHE_ONLY_FAILURE_ATTRIBUTION.svg",
+    "csv": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/results/a32/figures/FIG06_CACHE_ONLY_FAILURE_ATTRIBUTION.csv"
+  }
+]

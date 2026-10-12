@@ -1,0 +1,16 @@
+{
+  "event": "JOB",
+  "id": "e1-stop-001",
+  "status": "COMPLETE",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "-c",
+    "from pathlib import Path; import json; from src.a32.__main__ import main; import sys; r=Path.cwd(); gate=json.loads((r/\"results/a32/E0_GATE.json\").read_text()); assert gate[\"status\"]!=\"PASS\"; stages=[\"shadow\",\"trajectories\",\"vector-check\"]; [(setattr(sys,\"argv\",[\"a32\",s]),main()) for s in stages]"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 0.04248862504027784,
+  "process_cpu_seconds": 0.023101999999999998,
+  "charged_seconds": 0.04248862504027784,
+  "gpu_occupied_seconds": 0.0,
+  "memory_peak_rss_bytes_platform_native": 16973824
+}

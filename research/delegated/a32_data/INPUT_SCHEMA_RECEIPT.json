@@ -1,0 +1,16 @@
+{
+  "role": "input_schema_whitelist_only",
+  "interpreter": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "cpu_seconds": 0.094168,
+  "wall_seconds": 0.1795517909922637,
+  "real_maxwell_calls": 0,
+  "dev_target_access": false,
+  "hash_checks": false
+}

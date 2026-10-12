@@ -1,0 +1,16 @@
+{
+  "task": "A32 pure statistics and plotting synthetic utility check",
+  "outcome": "FAILED",
+  "is_research_experiment": false,
+  "native_backend_invoked": false,
+  "target_files_read": false,
+  "wall_seconds": 0.08547791599994525,
+  "user_cpu_seconds": 0.046768,
+  "system_cpu_seconds": 0.028099,
+  "process_cpu_seconds": 0.07486699999999999,
+  "cpu_charged_seconds": 0.08547791599994525,
+  "charge_rule": "max(process CPU, wall); parent can book its protocol ledger without double counting",
+  "checks": [],
+  "artifacts": {},
+  "error": "Traceback (most recent call last):\n  File \"/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/check_pure_utils.py\", line 28, in <module>\n    from a32 import plots, statistics\n  File \"/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/src/a32/plots.py\", line 16, in <module>\n    import matplotlib\nModuleNotFoundError: No module named 'matplotlib'\n"
+}

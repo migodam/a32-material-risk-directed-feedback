@@ -1,0 +1,5 @@
+# Same declared numerical dependencies as the frozen A29 source.
+numpy>=2.0
+scipy>=1.13
+# Optional only: use an existing supported Torch runtime; do not install CUDA.
+# torch==2.6.0

@@ -1,0 +1,16 @@
+{
+  "task": "A32 pure statistics and plotting synthetic utility check",
+  "outcome": "FAILED",
+  "is_research_experiment": false,
+  "native_backend_invoked": false,
+  "target_files_read": false,
+  "wall_seconds": 0.0003034999999999982,
+  "user_cpu_seconds": 0.00021999999999999797,
+  "system_cpu_seconds": 8.299999999999974e-05,
+  "process_cpu_seconds": 0.0003029999999999977,
+  "cpu_charged_seconds": 0.0003034999999999982,
+  "charge_rule": "max(process CPU, wall); parent can book its protocol ledger without double counting",
+  "checks": [],
+  "artifacts": {},
+  "error": "Traceback (most recent call last):\n  File \"/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/research/delegated/a32_figures/check_pure_utils.py\", line 27, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n"
+}

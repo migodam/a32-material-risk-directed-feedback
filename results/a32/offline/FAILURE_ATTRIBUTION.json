@@ -1,0 +1,56 @@
+{
+  "status": "COMPLETE_CACHE_ONLY",
+  "new_states": 0,
+  "new_RHS": 0,
+  "max_independent_primary_KKT_relative": 6.233537636320069e-16,
+  "max_raw_primal_violation": 1.942890293094024e-16,
+  "groups": {
+    "complex": {
+      "background_model_bias_noise_RMS": 3.0244029811733752,
+      "calibrated_model_bias_noise_RMS": 0.4741921794792345,
+      "measurement_noise_RMS": 0.9969647507887478,
+      "L_weak_prior_whitened_dimensions": 43.083333333333336,
+      "in_chart_fit_minus_oracle_weak_material_energy_fraction": 0.7632425472181215,
+      "primary_prior_Mahalanobis_squared": 25.726332890509784,
+      "oracle_prior_Mahalanobis_squared": 45.07188499406109
+    },
+    "shell": {
+      "background_model_bias_noise_RMS": 3.1699002992040866,
+      "calibrated_model_bias_noise_RMS": 0.4174920009017477,
+      "measurement_noise_RMS": 1.0010583537092832,
+      "L_weak_prior_whitened_dimensions": 43.25,
+      "in_chart_fit_minus_oracle_weak_material_energy_fraction": 0.8838454703864485,
+      "primary_prior_Mahalanobis_squared": 16.244139874691836,
+      "oracle_prior_Mahalanobis_squared": 51.17041616920693
+    },
+    "asymmetric_piecewise": {
+      "background_model_bias_noise_RMS": 2.5550178438553286,
+      "calibrated_model_bias_noise_RMS": 0.5792813047698919,
+      "measurement_noise_RMS": 0.9947280833017946,
+      "L_weak_prior_whitened_dimensions": 42.625,
+      "in_chart_fit_minus_oracle_weak_material_energy_fraction": 0.5673062976151997,
+      "primary_prior_Mahalanobis_squared": 45.96297591014621,
+      "oracle_prior_Mahalanobis_squared": 40.03231318012054
+    },
+    "mixed_scale": {
+      "background_model_bias_noise_RMS": 3.34829080046071,
+      "calibrated_model_bias_noise_RMS": 0.4258032327660637,
+      "measurement_noise_RMS": 0.9951078153551653,
+      "L_weak_prior_whitened_dimensions": 43.375,
+      "in_chart_fit_minus_oracle_weak_material_energy_fraction": 0.8385758736527161,
+      "primary_prior_Mahalanobis_squared": 14.971882886691308,
+      "oracle_prior_Mahalanobis_squared": 44.012925632855776
+    },
+    "smooth": {
+      "background_model_bias_noise_RMS": 3.0460494812097467,
+      "calibrated_model_bias_noise_RMS": 0.4626984345928122,
+      "measurement_noise_RMS": 1.0074047879215202,
+      "L_weak_prior_whitened_dimensions": 42.5,
+      "in_chart_fit_minus_oracle_weak_material_energy_fraction": 0.5832616039328385,
+      "primary_prior_Mahalanobis_squared": 28.608589644672385,
+      "oracle_prior_Mahalanobis_squared": 19.571707278134628
+    }
+  },
+  "scope": "background-L/prior local weak directions; not full-F or calibrated posterior uncertainty",
+  "interpretation_limit": "Model bias and TRAIN-prior effects are observed, not uniquely causally separated; no new F at recovered images."
+}

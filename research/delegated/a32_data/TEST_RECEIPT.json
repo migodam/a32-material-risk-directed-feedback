@@ -1,0 +1,21 @@
+{
+  "role": "synthetic_arithmetic_tests",
+  "interpreter": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "cpu_seconds": 0.465634,
+  "wall_seconds": 0.547189167002216,
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "real_maxwell_calls": 0,
+  "real_dev_target_access": false,
+  "synthetic_offline_fixture_only": true,
+  "hash_checks": false
+}

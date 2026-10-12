@@ -1,0 +1,3 @@
+{"status": "NOT_RUN", "reason": "E0_PASS_REQUIRED", "stage": "shadow", "new_physics_states": 0}
+{"status": "NOT_RUN", "reason": "E0_PASS_REQUIRED", "stage": "trajectories", "new_physics_states": 0}
+{"status": "NOT_RUN", "reason": "E0_PASS_REQUIRED", "stage": "vector-check", "new_physics_states": 0}

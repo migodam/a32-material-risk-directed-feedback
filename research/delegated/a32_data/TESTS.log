@@ -1,0 +1,19 @@
+test_first_eligible_selection_ignores_any_later_start (test_data_charts.ChartTests.test_first_eligible_selection_ignores_any_later_start) ... ok
+test_no_rank_fallback_and_no_pixel_clipping (test_data_charts.ChartTests.test_no_rank_fallback_and_no_pixel_clipping) ... ok
+test_physical_scale_train_projection_and_metric (test_data_charts.ChartTests.test_physical_scale_train_projection_and_metric) ... ok
+test_preparation_reuses_frozen_function (test_data_charts.ChartTests.test_preparation_reuses_frozen_function) ... ok
+test_projection_qp_uses_truth_free_material_constraints (test_data_charts.ChartTests.test_projection_qp_uses_truth_free_material_constraints) ... ok
+test_sparse_support_is_first_frozen_n3_start (test_data_charts.ChartTests.test_sparse_support_is_first_frozen_n3_start) ... ok
+test_cache_four_keys_and_exact_pack_unpack (test_data_charts.DataTests.test_cache_four_keys_and_exact_pack_unpack) ... ok
+test_cache_rejects_arbitrary_nearby_material (test_data_charts.DataTests.test_cache_rejects_arbitrary_nearby_material) ... ok
+test_offline_bad_saved_identity_never_opens_target (test_data_charts.DataTests.test_offline_bad_saved_identity_never_opens_target) ... ok
+test_offline_refuses_missing_token_before_target_open (test_data_charts.DataTests.test_offline_refuses_missing_token_before_target_open) ... ok
+test_offline_saved_token_and_target_reordering (test_data_charts.DataTests.test_offline_saved_token_and_target_reordering) ... ok
+test_online_whitelist_and_csv_order (test_data_charts.DataTests.test_online_whitelist_and_csv_order) ... ok
+test_train_clean64_and_normalization (test_data_charts.DataTests.test_train_clean64_and_normalization) ... ok
+test_train_split_leakage_refused_before_chi (test_data_charts.DataTests.test_train_split_leakage_refused_before_chi) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.199s
+
+OK

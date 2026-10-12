@@ -1,0 +1,188 @@
+{
+  "schema": "A31-finite-checks-v1",
+  "seed": 311011,
+  "status": "PASS",
+  "checks": 22,
+  "passed": 22,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "scope": {
+    "mesh_maxwell_solves": 0,
+    "analytic_slab_material_cases": 2,
+    "tiny_vector_dipole_material_states": 1,
+    "tiny_vector_dipole_rhs": 2,
+    "training_updates": 0,
+    "gpu_calls": 0,
+    "user_truth_arrays_read": 0,
+    "note": "Floating-point verification and explicit counterexamples; not interval-arithmetic proof or imaging evidence."
+  },
+  "elapsed_seconds": 0.06255956700010756,
+  "results": {
+    "relative_feedback": {
+      "passed": true,
+      "relative_error": 1.4378915646858968e-15
+    },
+    "two_sided_defect": {
+      "passed": true,
+      "galerkin_error": 3.0045770403700557e-16,
+      "arbitrary_inverse_missing_term": 0.47917390301890705,
+      "corrected_error": 1.6890985173422565e-16
+    },
+    "signed_covariance_and_nuisance_schur": {
+      "passed": true,
+      "relative_error": 1.4449108883977183e-15,
+      "signed_risk_change": -0.03511169256461327,
+      "precision_difference_eigenvalues": [
+        -1.3215804089078607,
+        -0.6441486339317822,
+        -1.4038894772469016e-17,
+        1.3859873258218324e-16,
+        2.265297206884829e-15,
+        0.6341744107993839,
+        7.362540579603641
+      ]
+    },
+    "false_confidence_counterexample": {
+      "passed": true,
+      "reported_surrogate_variance": 0.9900990099009901,
+      "exact_bayes_risk": 0.9999000099990001,
+      "actual_surrogate_risk": 1.0078237427703167,
+      "excess_identity_error": 1.0061396160665481e-16
+    },
+    "dissipative_schur_congruence": {
+      "passed": true,
+      "relative_error": 2.7921776586843487e-16,
+      "minimum_reduced_dissipation": 0.7964671576796771
+    },
+    "coherent_multisource_power_gram": {
+      "passed": true,
+      "relative_error": 1.8453918349425794e-16
+    },
+    "loss_norm_dual_residual_bound": {
+      "passed": true,
+      "absolute_error": 7.517937941385088,
+      "bound": 52.09037670277123,
+      "effectivity": 6.928811744510652,
+      "identity_error": 1.2560739669470201e-15
+    },
+    "loss_bound_sharp_case": {
+      "passed": true,
+      "ratio": 1.0
+    },
+    "oblique_passivity_counterexample": {
+      "passed": true,
+      "full_dissipation_eigenvalues": [
+        1.0,
+        1.0
+      ],
+      "reduced_real": 1.0,
+      "reduced_imag": 9.0,
+      "reduced_dissipation": -9.0,
+      "biorthogonality_error": 0.0
+    },
+    "nonnormal_resolvent_counterexample": {
+      "passed": true,
+      "spectral_radius": 0.5,
+      "resolvent_two_norm": 120.03332407921454,
+      "invalid_radius_only_bound": 2.0
+    },
+    "bipartite_gain_invariants": {
+      "passed": true,
+      "relative_error": 1.93134021107561e-16,
+      "independent_complex_invariants": 217,
+      "complex_orbit_dimension": 39
+    },
+    "signed_pair_likelihood_defect": {
+      "passed": true,
+      "identity_error": 1.1102230246251565e-16,
+      "shared_offset_identity_error": 8.881784197001252e-16,
+      "shared_offset_changes_log_odds": -4.379462143524556
+    },
+    "sharp_tilt_tv_and_squared_regret": {
+      "passed": true,
+      "total_variation": 0.3363755443363322,
+      "sharp_bound": 0.3363755443363322,
+      "squared_material_regret": 0.11314850682756372
+    },
+    "posterior_polytope_material_regret": {
+      "passed": true,
+      "robust_regret_bound": 1.348303860121916,
+      "max_sampled_regret": 0.8971908107346196,
+      "lp_feasibility_max": 6.110071419185669e-18
+    },
+    "posterior_mean_covariance_transport": {
+      "passed": true,
+      "relative_error": 1.2177709378935645e-16
+    },
+    "dirac_jacobian_counterexample": {
+      "passed": true,
+      "wrong_topology_weights": [
+        0.9900990099009901,
+        0.009900990099009903
+      ],
+      "normalized_deterministic_weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "analytic_lossless_slab_nonidentifiability": {
+      "passed": true,
+      "relative_transfer_difference": 5.195736337412959e-16,
+      "relative_permittivities": [
+        1.0,
+        4.0
+      ],
+      "thickness_in_vacuum_wavelengths": 1.0,
+      "scope": "normal-incidence or single TEM channel; not ring-array imaging"
+    },
+    "goal_only_compensation_certificate": {
+      "passed": true,
+      "certified_separation_lower": 2.0,
+      "goal_error": 0.0,
+      "euclidean_model_error": 100.0,
+      "scope": "linear algebra, not evidence for a physical material family"
+    },
+    "topology_mixture_mean": {
+      "passed": true,
+      "posterior_mean": [
+        1.0,
+        0.5,
+        1.0
+      ],
+      "mean_squared_risk": 0.25,
+      "solid_action_risk": 0.5
+    },
+    "positive_reach_representation_bound": {
+      "passed": true,
+      "material_squared_error": 0.767903897566803,
+      "lower": 0.5252692650445354,
+      "upper": 0.7679038975668031
+    },
+    "nonlinear_rom_source_field_defect": {
+      "passed": true,
+      "relative_identity_error": 3.3107783710095416e-16,
+      "omitted_source_field_term_norm": 0.0501646465981205,
+      "frozen_only_relative_error": 0.038952237478881636
+    },
+    "physical_vector_dipole_power_balance": {
+      "passed": true,
+      "relative_power_identity_error": 6.5545879421925905e-18,
+      "minimum_radiation_gram_eigenvalue": 0.0006087238659784536,
+      "absorption_per_source": [
+        0.9416581082374579,
+        0.5546470659559396
+      ],
+      "radiation_per_source": [
+        0.8342559079173695,
+        0.8067755476156121
+      ],
+      "physical_material_states": 1,
+      "complex_current_dimension": 9,
+      "source_rhs": 2,
+      "scope": "Radiation-corrected point-dipole Maxwell model, not continuum material imaging or the A17/A24 backend"
+    }
+  }
+}

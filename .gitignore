@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv*/
+inputs/
+results/a32/cache/
+results/a32/online/*.npz
+results/a32/offline/*.npz
+publication/*.zip
+.DS_Store
+research/delegated/a32_figures/SYNTHETIC_ONLY/
+research/delegated/a32_figures/*.png

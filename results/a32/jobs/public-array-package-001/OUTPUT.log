@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A32/a32-material-risk-directed-feedback/tools/package_public_arrays.py", line 45, in <module>
+    assert local.exists(),(doc,target)
+           ~~~~~~~~~~~~^^
+AssertionError: ('docs/MATHEMATICAL_SCOPE.md', 'e_inc+Gj_ROM')

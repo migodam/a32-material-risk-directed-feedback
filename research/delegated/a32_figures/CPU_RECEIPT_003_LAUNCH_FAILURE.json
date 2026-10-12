@@ -1,0 +1,11 @@
+{
+  "task": "A32 synthetic utility check runtime launch",
+  "outcome": "FAILED_BEFORE_PYTHON_START",
+  "is_research_experiment": false,
+  "native_backend_invoked": false,
+  "target_files_read": false,
+  "wall_seconds_reported_by_exec": 0.000009041,
+  "process_cpu_seconds": null,
+  "cpu_charged_seconds": null,
+  "error": "Incorrect shell quoting produced a literal backslash-x27 in the interpreter path; no arithmetic/render process started. Corrected to the parent-provided A25 Python path."
+}

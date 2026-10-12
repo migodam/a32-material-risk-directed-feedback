@@ -1,0 +1,47 @@
+test_3D_reserve_cannot_be_spent_on_2D (test_budget.Budgets.test_3D_reserve_cannot_be_spent_on_2D) ... ok
+test_E0_rejects_native_state_even_if_gate_exists (test_budget.Budgets.test_E0_rejects_native_state_even_if_gate_exists) ... ok
+test_all_resolutions_and_repeats_count (test_budget.Budgets.test_all_resolutions_and_repeats_count) ... ok
+test_failed_gate_rejects_state (test_budget.Budgets.test_failed_gate_rejects_state) ... ok
+test_rhs_batch_counts_columns (test_budget.Budgets.test_rhs_batch_counts_columns) ... ok
+test_shadow_cap_is_not_reset_by_new_Book (test_budget.Budgets.test_shadow_cap_is_not_reset_by_new_Book) ... ok
+test_first_eligible_selection_ignores_any_later_start (test_data_charts.ChartTests.test_first_eligible_selection_ignores_any_later_start) ... ok
+test_no_rank_fallback_and_no_pixel_clipping (test_data_charts.ChartTests.test_no_rank_fallback_and_no_pixel_clipping) ... ok
+test_physical_scale_train_projection_and_metric (test_data_charts.ChartTests.test_physical_scale_train_projection_and_metric) ... ok
+test_preparation_reuses_frozen_function (test_data_charts.ChartTests.test_preparation_reuses_frozen_function) ... ok
+test_projection_qp_uses_truth_free_material_constraints (test_data_charts.ChartTests.test_projection_qp_uses_truth_free_material_constraints) ... ok
+test_sparse_support_is_first_frozen_n3_start (test_data_charts.ChartTests.test_sparse_support_is_first_frozen_n3_start) ... ok
+test_cache_four_keys_and_exact_pack_unpack (test_data_charts.DataTests.test_cache_four_keys_and_exact_pack_unpack) ... ok
+test_cache_rejects_arbitrary_nearby_material (test_data_charts.DataTests.test_cache_rejects_arbitrary_nearby_material) ... ok
+test_offline_bad_saved_identity_never_opens_target (test_data_charts.DataTests.test_offline_bad_saved_identity_never_opens_target) ... ok
+test_offline_refuses_missing_token_before_target_open (test_data_charts.DataTests.test_offline_refuses_missing_token_before_target_open) ... ok
+test_offline_saved_token_and_target_reordering (test_data_charts.DataTests.test_offline_saved_token_and_target_reordering) ... ok
+test_online_whitelist_and_csv_order (test_data_charts.DataTests.test_online_whitelist_and_csv_order) ... ok
+test_train_clean64_and_normalization (test_data_charts.DataTests.test_train_clean64_and_normalization) ... ok
+test_train_split_leakage_refused_before_chi (test_data_charts.DataTests.test_train_split_leakage_refused_before_chi) ... ok
+test_exact_original_OAS_and_covariance_trace_matched_ridge (test_qp_priors.PriorTests.test_exact_original_OAS_and_covariance_trace_matched_ridge) ... ok
+test_inactive_zero_variance_channel_and_explicit_degenerate_failure (test_qp_priors.PriorTests.test_inactive_zero_variance_channel_and_explicit_degenerate_failure) ... ok
+test_multiscale_is_precision_pullback_through_nonorthogonal_basis (test_qp_priors.PriorTests.test_multiscale_is_precision_pullback_through_nonorthogonal_basis) ... ok
+test_rank_deficient_64_coordinate_sample_has_proper_OAS (test_qp_priors.PriorTests.test_rank_deficient_64_coordinate_sample_has_proper_OAS) ... ok
+test_train_shape_and_fixed_real_coordinates_required (test_qp_priors.PriorTests.test_train_shape_and_fixed_real_coordinates_required) ... ok
+test_budget_hook_retains_current_point (test_qp_priors.QPTests.test_budget_hook_retains_current_point) ... ok
+test_coupled_active_normals_and_duplicate_pixels (test_qp_priors.QPTests.test_coupled_active_normals_and_duplicate_pixels) ... ok
+test_duplicate_equalities (test_qp_priors.QPTests.test_duplicate_equalities) ... ok
+test_frozen_config_and_malformed_H_rejected (test_qp_priors.QPTests.test_frozen_config_and_malformed_H_rejected) ... ok
+test_general_spd_unconstrained (test_qp_priors.QPTests.test_general_spd_unconstrained) ... ok
+test_infeasible_and_failed_solutions_are_retained (test_qp_priors.QPTests.test_infeasible_and_failed_solutions_are_retained) ... ok
+test_material_sized_anisotropic_QP_with_known_KKT_point (test_qp_priors.QPTests.test_material_sized_anisotropic_QP_with_known_KKT_point) ... ok
+test_nonzero_feasible_set_phase_I (test_qp_priors.QPTests.test_nonzero_feasible_set_phase_I) ... ok
+test_small_synthetic_qps_against_exhaustive_faces (test_qp_priors.QPTests.test_small_synthetic_qps_against_exhaustive_faces) ... ok
+test_GN_gain_does_not_imply_material_gain (test_risk_algebra.Algebra.test_GN_gain_does_not_imply_material_gain) ... ok
+test_alpha_zero_retains_baseline_not_initial_state (test_risk_algebra.Algebra.test_alpha_zero_retains_baseline_not_initial_state) ... ok
+test_damping_is_not_covariance_prior (test_risk_algebra.Algebra.test_damping_is_not_covariance_prior) ... ok
+test_full_nonlinear_residual_two_channels (test_risk_algebra.Algebra.test_full_nonlinear_residual_two_channels) ... ok
+test_one_hvp_risk_and_bound (test_risk_algebra.Algebra.test_one_hvp_risk_and_bound) ... ok
+test_same_absolute_prior_after_reanchor (test_risk_algebra.Algebra.test_same_absolute_prior_after_reanchor) ... ok
+test_source_complete_schur_and_signed_pair (test_risk_algebra.Algebra.test_source_complete_schur_and_signed_pair) ... ok
+test_source_field_missing_even_if_observed_state_exact (test_risk_algebra.Algebra.test_source_field_missing_even_if_observed_state_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.232s
+
+OK

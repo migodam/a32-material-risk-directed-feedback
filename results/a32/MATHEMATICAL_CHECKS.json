@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "A32_tests": 50,
+  "test_log": "results/a32/jobs/tests-final-002/OUTPUT.log",
+  "matrix_material_risk_and_source_field_tests": 8,
+  "generic_budget_guard_tests": 7,
+  "frozen_gate_coverage_tests": 7,
+  "data_and_chart_access_tests": 14,
+  "prior_and_QP_tests": 14,
+  "legacy_A31_22_checks": "HISTORICAL_JSON_PRESERVED_NOT_REEXECUTED",
+  "native_3d": "NOT_RUN",
+  "power_form": "NOT_ESTABLISHED_IN_THIS_CAMPAIGN",
+  "full_Galerkin_native_ablation": "NOT_RUN_E0_FAILED",
+  "missing_attachments": [
+    "CORE_THEOREM.md",
+    "a31_r1_checks.py"
+  ]
+}

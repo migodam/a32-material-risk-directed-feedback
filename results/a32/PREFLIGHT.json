@@ -1,0 +1,556 @@
+{
+  "status": "PASS",
+  "cases": 32,
+  "independent_parents": 16,
+  "TRAIN": {
+    "parents": [
+      250001,
+      250002,
+      250003,
+      250004,
+      250005,
+      250006,
+      250007,
+      250008,
+      250009,
+      250010,
+      250011,
+      250012,
+      250013,
+      250014,
+      250015,
+      250016,
+      250017,
+      250018,
+      250019,
+      250020,
+      250021,
+      250022,
+      250023,
+      250024,
+      250025,
+      250026,
+      250027,
+      250028,
+      250029,
+      250030,
+      250031,
+      250032,
+      250033,
+      250034,
+      250035,
+      250036,
+      250037,
+      250038,
+      250039,
+      250040,
+      250041,
+      250042,
+      250043,
+      250044,
+      250045,
+      250046,
+      250047,
+      250048,
+      250049,
+      250050,
+      250051,
+      250052,
+      250053,
+      250054,
+      250055,
+      250056,
+      250057,
+      250058,
+      250059,
+      250060,
+      250061,
+      250062,
+      250063,
+      250064
+    ],
+    "selected_case_ids": [
+      "p250001_weak_a1_clean",
+      "p250002_weak_a1_clean",
+      "p250003_weak_a1_clean",
+      "p250004_weak_a1_clean",
+      "p250005_weak_a1_clean",
+      "p250006_weak_a1_clean",
+      "p250007_weak_a1_clean",
+      "p250008_weak_a1_clean",
+      "p250009_weak_a1_clean",
+      "p250010_weak_a1_clean",
+      "p250011_weak_a1_clean",
+      "p250012_weak_a1_clean",
+      "p250013_weak_a1_clean",
+      "p250014_weak_a1_clean",
+      "p250015_weak_a1_clean",
+      "p250016_weak_a1_clean",
+      "p250017_weak_a1_clean",
+      "p250018_weak_a1_clean",
+      "p250019_weak_a1_clean",
+      "p250020_weak_a1_clean",
+      "p250021_weak_a1_clean",
+      "p250022_weak_a1_clean",
+      "p250023_weak_a1_clean",
+      "p250024_weak_a1_clean",
+      "p250025_weak_a1_clean",
+      "p250026_weak_a1_clean",
+      "p250027_weak_a1_clean",
+      "p250028_weak_a1_clean",
+      "p250029_weak_a1_clean",
+      "p250030_weak_a1_clean",
+      "p250031_weak_a1_clean",
+      "p250032_weak_a1_clean",
+      "p250033_weak_a1_clean",
+      "p250034_weak_a1_clean",
+      "p250035_weak_a1_clean",
+      "p250036_weak_a1_clean",
+      "p250037_weak_a1_clean",
+      "p250038_weak_a1_clean",
+      "p250039_weak_a1_clean",
+      "p250040_weak_a1_clean",
+      "p250041_weak_a1_clean",
+      "p250042_weak_a1_clean",
+      "p250043_weak_a1_clean",
+      "p250044_weak_a1_clean",
+      "p250045_weak_a1_clean",
+      "p250046_weak_a1_clean",
+      "p250047_weak_a1_clean",
+      "p250048_weak_a1_clean",
+      "p250049_weak_a1_clean",
+      "p250050_weak_a1_clean",
+      "p250051_weak_a1_clean",
+      "p250052_weak_a1_clean",
+      "p250053_weak_a1_clean",
+      "p250054_weak_a1_clean",
+      "p250055_weak_a1_clean",
+      "p250056_weak_a1_clean",
+      "p250057_weak_a1_clean",
+      "p250058_weak_a1_clean",
+      "p250059_weak_a1_clean",
+      "p250060_weak_a1_clean",
+      "p250061_weak_a1_clean",
+      "p250062_weak_a1_clean",
+      "p250063_weak_a1_clean",
+      "p250064_weak_a1_clean"
+    ],
+    "independent_parents": 64,
+    "background": "weak",
+    "amplitude": 1.2,
+    "noise": "clean",
+    "split": "train",
+    "background_replication": false,
+    "normalization": "(chi-chi_b)/saved amplitude",
+    "split_leakage": false
+  },
+  "packing": "source-major [Re32,Im32]; material [Re576,Im576]",
+  "material_mass": 0.001736111111111111,
+  "dtype": "complex128/float64",
+  "background_J_shape": [
+    512,
+    1152
+  ],
+  "audits": [
+    {
+      "case_id": "p250065_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.676567085430345e-17
+      },
+      "sigma": 0.0010486064440967538,
+      "noise_whitening": 1348.6599956871971
+    },
+    {
+      "case_id": "p250065_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.795608429866057e-17
+      },
+      "sigma": 0.0006642250374511204,
+      "noise_whitening": 2129.118119063926
+    },
+    {
+      "case_id": "p250066_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 4.812732067939807e-17
+      },
+      "sigma": 0.001543081101631912,
+      "noise_whitening": 916.4868657113805
+    },
+    {
+      "case_id": "p250066_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.849408477086587e-17
+      },
+      "sigma": 0.0012227007110708677,
+      "noise_whitening": 1156.6310132710207
+    },
+    {
+      "case_id": "p250067_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 4.0653205386672925e-17
+      },
+      "sigma": 0.0012153329208576902,
+      "noise_whitening": 1163.6429311690579
+    },
+    {
+      "case_id": "p250067_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.892614388674213e-17
+      },
+      "sigma": 0.0008320946538595081,
+      "noise_whitening": 1699.5825604858082
+    },
+    {
+      "case_id": "p250068_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.328692860807518e-17
+      },
+      "sigma": 0.0010424674168438284,
+      "noise_whitening": 1356.60217242546
+    },
+    {
+      "case_id": "p250068_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.448800829223238e-17
+      },
+      "sigma": 0.000669592212046697,
+      "noise_whitening": 2112.0519876573303
+    },
+    {
+      "case_id": "p250069_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 4.743689774381744e-17
+      },
+      "sigma": 0.001270913712869431,
+      "noise_whitening": 1112.7534057210903
+    },
+    {
+      "case_id": "p250069_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.07407050780812e-17
+      },
+      "sigma": 0.0008537276049369115,
+      "noise_whitening": 1656.5161465964336
+    },
+    {
+      "case_id": "p250070_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.029743055840659e-17
+      },
+      "sigma": 0.0007326261257290524,
+      "noise_whitening": 1930.334604114452
+    },
+    {
+      "case_id": "p250070_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.783815344068204e-17
+      },
+      "sigma": 0.000470666409717461,
+      "noise_whitening": 3004.7046765500886
+    },
+    {
+      "case_id": "p250071_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.735390402267777e-17
+      },
+      "sigma": 0.0008816187715736283,
+      "noise_whitening": 1604.1100847351765
+    },
+    {
+      "case_id": "p250071_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.640154308205623e-17
+      },
+      "sigma": 0.0007113655038373227,
+      "noise_whitening": 1988.0266258968074
+    },
+    {
+      "case_id": "p250072_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.967063319983979e-17
+      },
+      "sigma": 0.0007929900536886904,
+      "noise_whitening": 1783.393821643421
+    },
+    {
+      "case_id": "p250072_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.684532086763572e-17
+      },
+      "sigma": 0.0005788737769073203,
+      "noise_whitening": 2443.043058417061
+    },
+    {
+      "case_id": "p250073_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.248771629062305e-17
+      },
+      "sigma": 0.00119211798514519,
+      "noise_whitening": 1186.3033525166184
+    },
+    {
+      "case_id": "p250073_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.579714173075701e-17
+      },
+      "sigma": 0.0007590054418520374,
+      "noise_whitening": 1863.2456164244286
+    },
+    {
+      "case_id": "p250074_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.647840156169438e-17
+      },
+      "sigma": 0.0010138054304962279,
+      "noise_whitening": 1394.9555997948041
+    },
+    {
+      "case_id": "p250074_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.969079943854864e-17
+      },
+      "sigma": 0.0008062904430402392,
+      "noise_whitening": 1753.9753504216055
+    },
+    {
+      "case_id": "p250075_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.111532438307814e-17
+      },
+      "sigma": 0.0008300997155496489,
+      "noise_whitening": 1703.6670846666614
+    },
+    {
+      "case_id": "p250075_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 7.406806523401973e-17
+      },
+      "sigma": 0.0006734389342154887,
+      "noise_whitening": 2099.987824464826
+    },
+    {
+      "case_id": "p250076_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.5031504229516513e-17
+      },
+      "sigma": 0.0009098362929809959,
+      "noise_whitening": 1554.36046383636
+    },
+    {
+      "case_id": "p250076_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.969785467198153e-17
+      },
+      "sigma": 0.0005458855361293018,
+      "noise_whitening": 2590.677841367308
+    },
+    {
+      "case_id": "p250077_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.063039053133217e-17
+      },
+      "sigma": 0.0011846108030513216,
+      "noise_whitening": 1193.8212607299904
+    },
+    {
+      "case_id": "p250077_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.729220394260512e-17
+      },
+      "sigma": 0.0008011841639367669,
+      "noise_whitening": 1765.1541630879158
+    },
+    {
+      "case_id": "p250078_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.008137679797333e-17
+      },
+      "sigma": 0.0010794729556930008,
+      "noise_whitening": 1310.0963344331283
+    },
+    {
+      "case_id": "p250078_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 7.637592561734429e-17
+      },
+      "sigma": 0.0006859805857578234,
+      "noise_whitening": 2061.594149651875
+    },
+    {
+      "case_id": "p250079_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 5.2688756340165946e-17
+      },
+      "sigma": 0.0012101909949691896,
+      "noise_whitening": 1168.5870810905346
+    },
+    {
+      "case_id": "p250079_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 7.233132043231257e-17
+      },
+      "sigma": 0.0008622744320639242,
+      "noise_whitening": 1640.0968297158709
+    },
+    {
+      "case_id": "p250080_weak_a1_snr20",
+      "checks": {
+        "field": 1.0464290613443129e-16,
+        "data": 4.509361387485453e-16,
+        "transfer": 1.4753762169225069e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.115415807977883e-17
+      },
+      "sigma": 0.0015075974355162713,
+      "noise_whitening": 938.0578190548612
+    },
+    {
+      "case_id": "p250080_ring_a1_snr20",
+      "checks": {
+        "field": 6.25779605485049e-16,
+        "data": 5.856804193032472e-16,
+        "transfer": 1.560065885642272e-15,
+        "real_material_J": 0.0,
+        "cached_material": 6.314864858554736e-17
+      },
+      "sigma": 0.0011297855859357109,
+      "noise_whitening": 1251.7539433837044
+    }
+  ],
+  "new_full_wave_states": 0,
+  "new_LU": 0,
+  "new_LU_RHS": 0,
+  "native_solver": "unchanged A24/A2 scalar 2D TM; no backend solve at preflight",
+  "missing_attachment_files": [
+    "CORE_THEOREM.md",
+    "a31_r1_checks.py"
+  ],
+  "source_field_and_power_status": "NATIVE_E1_NOT_RUN_AT_PREFLIGHT",
+  "environment": {
+    "python": "3.13.13",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "executable": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python"
+  }
+}

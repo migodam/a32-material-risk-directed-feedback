@@ -1,0 +1,13 @@
+test_GN_gain_does_not_imply_material_gain (test_risk_algebra.Algebra.test_GN_gain_does_not_imply_material_gain) ... ok
+test_alpha_zero_retains_baseline_not_initial_state (test_risk_algebra.Algebra.test_alpha_zero_retains_baseline_not_initial_state) ... ok
+test_damping_is_not_covariance_prior (test_risk_algebra.Algebra.test_damping_is_not_covariance_prior) ... ok
+test_full_nonlinear_residual_two_channels (test_risk_algebra.Algebra.test_full_nonlinear_residual_two_channels) ... ok
+test_one_hvp_risk_and_bound (test_risk_algebra.Algebra.test_one_hvp_risk_and_bound) ... ok
+test_same_absolute_prior_after_reanchor (test_risk_algebra.Algebra.test_same_absolute_prior_after_reanchor) ... ok
+test_source_complete_schur_and_signed_pair (test_risk_algebra.Algebra.test_source_complete_schur_and_signed_pair) ... ok
+test_source_field_missing_even_if_observed_state_exact (test_risk_algebra.Algebra.test_source_field_missing_even_if_observed_state_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.027s
+
+OK
